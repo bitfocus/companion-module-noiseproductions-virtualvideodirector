@@ -1,0 +1,26 @@
+{
+	"id": "noiseproductions-virtualvideodirector",
+	"name": "noiseproductions-virtualvideodirector",
+	"shortname": "virtualvideodirector",
+	"description": "Module for controlling the Virtual Video Director software",
+	"version": "0.0.1",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-noiseproductions-virtualvideodirector.git",
+	"bugs": "https://github.com/bitfocus/companion-module-noiseproductions-virtualvideodirector/issues",
+	"maintainers": [
+		{
+			"name": "Leon Reucher",
+			"email": "leon.reucher@ultimate-technology.de"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../index.js"
+	},
+	"manufacturer": "NoiseProductions",
+	"products": ["Virtual Video Director"],
+	"keywords": [""]
+}
